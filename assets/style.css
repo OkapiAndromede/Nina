@@ -145,6 +145,12 @@ body {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
+  font-size: calc(1.375rem + 1.5vw);
+  line-height: 1.2;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 .quote__author {
   font-family: Spectral;
@@ -156,6 +162,16 @@ body {
   margin: auto;
   background-color: #a8d5d8;
   position: relative;
+}
+#services h2 {
+  font-size: calc(1.3rem + 0.6vw);
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  margin-top: 0px;
+  margin-bottom: 8px;
 }
 #services .container::before {
   content: " ";
@@ -185,6 +201,13 @@ body {
   justify-content: space-between;
   z-index: 1;
 }
+.service__price p {
+  font-size: calc(1.275rem + 0.3vw);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  unicode-bidi: isolate;
+}
 
 #contact {
   margin: auto;
@@ -209,6 +232,9 @@ body {
 }
 .form-container {
   flex: 2;
+}
+.form-container h2 {
+  font-size: calc(1.3rem + 0.6vw);
 }
 form {
   display: flex;
