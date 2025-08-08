@@ -82,23 +82,54 @@
         ]
       }
     </script>
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <!-- Script Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="preload"
+      href="./assets/bootstrap/bootstrap.min.css"
       as="style"
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      onload="this.onload=null;this.rel='stylesheet'"
+      onload="this.rel='stylesheet'"
     />
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      />
-    </noscript>
+    <link
+      rel="preload"
+      href="./assets/style.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <!-- Script Font -->
+    <link
+      rel="preload"
+      href="./assets/fonts/spectral/Spectral-ExtraBold.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/spectral/Spectral-ExtraBoldItalic.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/spectral/Spectral-Italic.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/spectral/Spectral-LightItalic.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/inter/Inter-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <!-- Script JS -->
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <script
@@ -107,8 +138,8 @@
       crossorigin="anonymous"
       defer
     ></script>
-    <script src="./assets/maugallery.js" defer></script>
-    <script src="./assets/scripts.js" defer></script>
+    <script src="./assets/maugallery_min.js" defer></script>
+    <script src="./assets/script_min.js" defer></script>
   </head>
   <body>
     <header>
