@@ -1,3 +1,36 @@
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/spectral/Spectral-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/spectral/Spectral-ExtraBoldItalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/spectral/Spectral-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/spectral/Spectral-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 body {
   max-width: 1920px;
   margin: auto;
@@ -78,6 +111,7 @@ body {
   margin-top: 1em;
   margin-bottom: 60px;
   font-size: 30px;
+  font-weight: 400;
 }
 .about-me__introduction {
   font-family: "Spectral";
