@@ -75,6 +75,16 @@ body {
 
 .social-link img {
   width: 20px;
+  height: 16.8px;
+}
+.carousel-item img {
+  width: 100vw;
+  height: 665px;
+}
+@media (max-width: 767.98px) {
+  .carousel-item img {
+    height: 196px;
+  }
 }
 
 #about {
